@@ -2,7 +2,7 @@
   "name": "card-validator",
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://cracked-c0de.github.io/card-validator",
+  "homepage": "https://cracked-c0de.github.io/card-validator/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
