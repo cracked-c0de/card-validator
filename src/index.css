@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import "tailwindcss";
+
+@layer base {
+    * {
+        font-family: "Iceland", serif;
+    }
+    body {
+        background-color: #c3c3f9;
+    }
+}
