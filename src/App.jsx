@@ -63,7 +63,7 @@ function App() {
     }
     let validity = number % 10
     if (validity == 0) {
-      updNotification(<p>This Card is Valid!</p>)
+      updNotification(<p>Valid Card!</p>)
     } else {
       updNotification(<p>Fake Card!</p>)
     }
@@ -79,6 +79,7 @@ function App() {
           <button className="border-1 px-3 cursor-pointer rounded-xl text-xl py-1 hover:text-white hover:bg-black transition-all delay-75" onClick={() => check()}>Check</button>
           {notification}
         </div>
+        <p>This application does not grants that provided information is fact.</p>
         <p className="text-green-700 font-mono bg-black px-2 m-2">Developer: &lt;/cracked-c0de&gt;</p>
       </div>
     </>
